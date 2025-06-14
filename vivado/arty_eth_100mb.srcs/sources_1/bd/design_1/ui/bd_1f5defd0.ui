@@ -1,0 +1,31 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.726829",
+   "Default View_TopLeft":"-116,-215",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port eth_mii -pg 1 -lvl 6 -x 1380 -y 210 -defaultsOSRD
+preplace port eth_mdio_mdc -pg 1 -lvl 6 -x 1380 -y 230 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y 230 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace inst axi_ethernetlite_0 -pg 1 -lvl 5 -x 1230 -y 230 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 480 -y 220 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 200 -y 110 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 3 -x 690 -y 230 -defaultsOSRD
+preplace inst ARP_Generator_0 -pg 1 -lvl 4 -x 950 -y 210 -defaultsOSRD
+preplace netloc clk_wiz_0_clk_out1 1 0 5 20 290 NJ 290 580 160 800 300 1100
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 4 NJ 150 NJ 150 810 120 1090J
+preplace netloc proc_sys_reset_0_peripheral_reset 1 1 1 380 110n
+preplace netloc reset_1 1 0 1 NJ 90
+preplace netloc sys_clock_1 1 0 2 NJ 230 NJ
+preplace netloc vio_0_probe_out0 1 3 1 N 220
+preplace netloc vio_0_probe_out1 1 3 1 N 240
+preplace netloc axi_ethernetlite_0_MDIO 1 5 1 NJ 230
+preplace netloc axi_ethernetlite_0_MII 1 5 1 NJ 210
+preplace netloc ARP_Generator_0_m_axi 1 4 1 N 210
+levelinfo -pg 1 0 200 480 690 950 1230 1380
+pagesize -pg 1 -db -bbox -sgen -120 0 1540 310
+"
+}
+0
