@@ -9,7 +9,10 @@ make Build - Only builds all the projects. Note that make \n\
              Build."
 
 Init:
-	@echo "Initializing"
+	cd vivado && \
+	vivado -mode batch -source arty_eth_100mb.tcl && \
+	cd arty_eth_100mb && \
+	vivado -mode batch -source build_project.tcl
 
 Build:
 	@echo "Building"

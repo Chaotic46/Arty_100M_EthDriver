@@ -1,1 +1,13 @@
 *.xsa
+*.cache
+*.gen
+*.hw
+*.ip_user_files
+*.sim
+*.runs
+*.jou
+*.log
+*.str
+
+arty_eth_100mb
+.Xil
